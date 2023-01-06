@@ -198,4 +198,4 @@ params:
       enable: true
   # Zusätze:
 
-  enableRobotsTXT: true
+  enableRobotsTXT: true 
