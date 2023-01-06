@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogposts on Matthias&#39; blog</title>
+    <link>https://matthiasgoetze.com/en/posts/</link>
+    <description>Recent content in Blogposts on Matthias&#39; blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 06 Jan 2023 14:50:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/en/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Markdown Samples</title>
+      <link>https://matthiasgoetze.com/en/posts/markdown/cheatsheet/</link>
+      <pubDate>Fri, 06 Jan 2023 14:50:25 +0100</pubDate>
+      
+      <guid>https://matthiasgoetze.com/en/posts/markdown/cheatsheet/</guid>
+      <description>To be honest, this list is stolen, stolen from the original author of the TOHA theme I&amp;rsquo;m using for this site. Thank you for preparing this is, so I can use it as well @hossainemruz
+This is a sample post intended to test the followings:
+A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>পোস্ট সমূহ</title>
+    <title>Blogposts</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -39,25 +39,18 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="পোস্ট সমূহ" />
+<meta property="og:title" content="Blogposts" />
 <meta property="og:description" content="" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://matthiasgoetze.com/posts/" /><meta property="article:section" content="posts" />
-
-<meta property="article:modified_time" content="2020-06-08T08:06:25+06:00" /><meta property="og:site_name" content="Matthias&#39; blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://matthiasgoetze.com/posts/" />
 
 
     
     
-<meta name="description" content="পোস্ট সমূহ" />
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-/>
-<link rel="stylesheet" href="/css/layouts/single.css"/>
-<link rel="stylesheet" href="/css/navigators/sidebar.css">
-
-<link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
 
 
 
@@ -111,13 +104,40 @@
     <a class="navbar-brand" href="/">
       
         <img src="/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" alt="Logo">
-      Matthias&#39; blog</a>
+      Matthias&#39; Blog</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+        
+        <span class="flag-icon flag-icon-de"></span>
+      
+      Deutsch
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/posts">
+          
+            
+            <span class="flag-icon flag-icon-gb"></span>
+          
+          Englisch
+        </a>
+      
+    </div>
+</li>
+
       
       
         <li class="nav-item dropdown">
@@ -157,15 +177,20 @@
 
       
       
+  
+  
+    
+  
+
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
         <form class="mx-auto" method="get" action="/search">
-          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+          <input type="text" name="keyword" value="" placeholder="Suche" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <li id="list-heading"><a href="/posts" data-filter="all">Beiträge</a></li>
             <div class="subtree">
                 
   
@@ -174,17 +199,8 @@
   
   
     
-    <li><a class="" href="/posts/introduction/" title="ভূমিকা">ভূমিকা</a></li>
-  
-
-  
-  
-  
-  
-  
-    
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">বিভাগ</a>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/markdown/">Markdown</a>
       
       <ul class="">
         
@@ -194,46 +210,12 @@
   
   
     
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/sub-category/">উপ-বিভাগ</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/category/sub-category/rich-content/" title="সমৃদ্ধ কন্টেন্ট">সমৃদ্ধ কন্টেন্ট</a></li>
+    <li><a class="" href="/posts/markdown/cheatsheet/" title="Markdown Cheatsheet">Markdown Cheatsheet</a></li>
   
 
 
       </ul>
     </li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/markdown-sample/" title="Markdown এর নমুনা">Markdown এর নমুনা</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/shortcodes/" title="শর্টকোডের  নমুনা">শর্টকোডের  নমুনা</a></li>
   
 
 
@@ -248,148 +230,48 @@
       
       
 <section class="content-section" id="content-section">
-  <div class="content">
-    <div class="container p-0 read-area">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      
+      
+        
+          <div class="post-card">
+  <a href="/posts/markdown/cheatsheet/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
       </div>
-
-      
-      <div class="page-content">
-        <div class="author-profile ml-auto align-self-lg-center">
-          <img class="rounded-circle" src='/images/author/matthias_hud68880b89c14b1fd89b4f9bd866d818e_67206_120x120_fit_box_3.png' alt="Author Image">
-          <h5 class="author-name">Matthias Goetze</h5>
-          <p>Monday, June 8, 2020</p>
-        </div>
-
-        <div class="title">
-          <h1>পোস্ট সমূহ</h1>
-        </div>
-        
-        <div class="taxonomy-terms">
-          <ul style="padding-left: 0;">
-            
-          </ul>
-        </div>
-        
-        <div class="post-content" id="post-content">
-          
-        </div>
-
-        
-        <div class="row pl-3 pr-3">
-        
-        <div class="col-md-6 share-buttons">
-        
-            <strong>Share on:</strong>
-            
-            
-                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fmatthiasgoetze.com%2fposts%2f&text=%e0%a6%aa%e0%a7%8b%e0%a6%b8%e0%a7%8d%e0%a6%9f%20%e0%a6%b8%e0%a6%ae%e0%a7%82%e0%a6%b9&via=Matthias%27%20blog" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                </a>
-            
-            
-            
-            
-            
-                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fmatthiasgoetze.com%2fposts%2f&title=%e0%a6%aa%e0%a7%8b%e0%a6%b8%e0%a7%8d%e0%a6%9f%20%e0%a6%b8%e0%a6%ae%e0%a7%82%e0%a6%b9" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-            
-            
-             
-            
-            
-                <a class="btn btn-sm email-btn" href="mailto:?subject=%e0%a6%aa%e0%a7%8b%e0%a6%b8%e0%a7%8d%e0%a6%9f%20%e0%a6%b8%e0%a6%ae%e0%a7%82%e0%a6%b9&body=https%3a%2f%2fmatthiasgoetze.com%2fposts%2f" target="_blank">
-                  <i class="fas fa-envelope-open-text"></i>
-                </a>
-            
-          
-          </div>
-
-        
-        
-          
-            
-          
-          <div class="col-md-6 btn-improve-page">
-             
-               <a href="https://github.com/MatthiasG-GIT/blog/edit/main/content/posts%5c_index.bn.md" title="Improve this page" target="_blank" rel="noopener">
-            
-                <i class="fas fa-code-branch"></i>
-                Improve this page
-              </a>
-          </div>
-        
-        </div>
-
-
-
-      
-      <hr />
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-<div class="row next-prev-navigator">
-  
-  
-</div>
-
-      <hr />
-
-      
-      
-
-      
-      
-
+      <div class="card-body">
+        <h5 class="card-title">Markdown Samples</h5>
+        <p class="card-text post-summary">To be honest, this list is stolen, stolen from the original author of the TOHA theme I&rsquo;m using for this site. Thank you for preparing this is, so I can use it as well @hossainemruz
+This is a sample post intended to test the followings:
+A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &lt;h1&gt;—&lt;h6&gt; elements represent six levels of section headings.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">January 6, 2023</span>
+        <a
+        href="/posts/markdown/cheatsheet/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Lesen</a
+        >
       </div>
     </div>
+  </a>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
+    </div>
   </div>
-  
-  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-  
 </section>
 
 
       
-      
-  <section class="toc-section" id="toc-section">
-    
-    <div class="toc-holder">
-      <h5 class="text-center pl-3">Table of Contents</h5>
-      <hr>
-      <div class="toc">
-        <nav id="TableOfContents"></nav>
-      </div>
-    </div>
-    
-  </section>
-
+       
     </div>
 
     
@@ -511,7 +393,7 @@
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>Kontaktiere mich:</h5>
           <ul>
             
               
@@ -522,7 +404,7 @@
             
               
                 <li><a href=https://www.linkedin.com/in/matthias-g%c3%b6tze-480669100 target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Goetze</span>
+                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Götze</span>
                 </a></li>
               
             
@@ -546,7 +428,7 @@
         </div>
         <div class="col-md-4 text-center">© 2023 Copyright.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Unterstützt von
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
@@ -577,18 +459,7 @@
 
     
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<script src="/js/single.js"></script>
-<script>
-  hljs.initHighlightingOnLoad();
-</script>
-
-
-
-
-
-
-
+    <script src="/js/list.js"></script>
 
 
     
