@@ -12,6 +12,8 @@ math: true
 mermaid: true
 ---
 
+To be honest, this list is stolen, stolen from the original author of the TOHA theme I'm using for this site. Thank you for preparing this is, so I can use it as well [@hossainemruz](https://github.com/hugo-toha)
+
 This is a sample post intended to test the followings:
 
 - A different post author.
