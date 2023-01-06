@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog Notes</title>
+    <title>General</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -39,20 +39,19 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Blog Notes" />
+<meta property="og:title" content="General" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://matthiasgoetze.com/en/notes/blog/" /><meta property="og:site_name" content="Matthias&#39; blog" />
+<meta property="og:url" content="https://matthiasgoetze.com/en/posts/general/" /><meta property="og:site_name" content="Matthias&#39; blog" />
 
 
     
     
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-  />
-  <link rel="stylesheet" href="/css/layouts/notes.css">
-  <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
 
 
     
@@ -128,7 +127,7 @@
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/de/notes/blog">
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/general">
           
             
             <span class="flag-icon flag-icon-de"></span>
@@ -191,7 +190,7 @@
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/en/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/en/posts" data-filter="all">Posts</a></li>
             <div class="subtree">
                 
   
@@ -203,7 +202,48 @@
   
   
     
-    <li><a class="active" href="/en/notes/blog/" title="Blog Notes">Blog Notes</a></li>
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/en/posts/general/">General</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/en/posts/general/helloworld/" title="Hello World">Hello World</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/en/posts/markdown/">Markdown</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/en/posts/markdown/cheatsheet/" title="Markdown Cheatsheet">Markdown Cheatsheet</a></li>
+  
+
+
+      </ul>
+    </li>
   
 
 
@@ -219,8 +259,35 @@
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       
+      
+      
+        
+          <div class="post-card">
+  <a href="/en/posts/general/helloworld/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Hello World</h5>
+        <p class="card-text post-summary">Every beginning is hard &hellip; So here I am with my own blog project. It came to me after I saw a video on YouTube about HUGO static websites and found it an exciting challenge.
+The video was several months ago, but who has time to take care of the project then? In the end, it was the Christmas holidays of 2022 that gave me the time I needed to take care of the blog.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">January 6, 2023</span>
+        <a
+        href="/en/posts/general/helloworld/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
       
     </div>
     <div class="paginator">
@@ -424,13 +491,7 @@
 
     
     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-  <script src="/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/js/note.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  
+    <script src="/js/list.js"></script>
 
 
     

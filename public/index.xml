@@ -6,8 +6,18 @@
     <description>Recent content on Matthias&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Fri, 06 Jan 2023 14:50:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Markdown Samples</title>
+    <lastBuildDate>Fri, 06 Jan 2023 15:30:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Hello World</title>
+      <link>https://matthiasgoetze.com/posts/general/helloworld/</link>
+      <pubDate>Fri, 06 Jan 2023 15:30:25 +0100</pubDate>
+      
+      <guid>https://matthiasgoetze.com/posts/general/helloworld/</guid>
+      <description>Aller Anfang ist schwer &amp;hellip; Da bin ich also mit meinem eigenen Blogprojekt. Entstanden daraus, dass ich bei YouTube ein Video über HUGO Statische Websites gesehen habe und es eine spannende Herausforderung fand.
+Das Video ist jetzt schon wieder mehrere Monate her, aber wer hat schon Zeit sich dann um die Projekte zu kümmern. Letztendlich waren es die Weihnachtsfeiertage 2022 die mir die nötige Zeit geschenkt haben mich jetzt doch noch um den Blog zu kümmern.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Cheatsheet</title>
       <link>https://matthiasgoetze.com/posts/markdown/cheatsheet/</link>
       <pubDate>Fri, 06 Jan 2023 14:50:25 +0100</pubDate>
       

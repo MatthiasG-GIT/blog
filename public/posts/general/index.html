@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog Notes</title>
+    <title>Allgemein</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -39,20 +39,19 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Blog Notes" />
+<meta property="og:title" content="Allgemein" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://matthiasgoetze.com/en/notes/blog/" /><meta property="og:site_name" content="Matthias&#39; blog" />
+<meta property="og:url" content="https://matthiasgoetze.com/posts/general/" />
 
 
     
     
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-  />
-  <link rel="stylesheet" href="/css/layouts/notes.css">
-  <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
 
 
     
@@ -102,10 +101,10 @@
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/en">
+    <a class="navbar-brand" href="/">
       
         <img src="/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" alt="Logo">
-      Matthias&#39; blog</a>
+      Matthias&#39; Blog</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -122,18 +121,18 @@
     <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       
         
-        <span class="flag-icon flag-icon-gb"></span>
+        <span class="flag-icon flag-icon-de"></span>
       
-      Englisch
+      Deutsch
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/de/notes/blog">
+        <a class="dropdown-item nav-link languages-item" href="/posts/general">
           
             
-            <span class="flag-icon flag-icon-de"></span>
+            <span class="flag-icon flag-icon-gb"></span>
           
-          Deutsch
+          Englisch
         </a>
       
     </div>
@@ -186,12 +185,12 @@
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/en/search">
-          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Suche" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/en/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/posts" data-filter="all">Beiträge</a></li>
             <div class="subtree">
                 
   
@@ -203,7 +202,48 @@
   
   
     
-    <li><a class="active" href="/en/notes/blog/" title="Blog Notes">Blog Notes</a></li>
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/general/">Allgemein</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/general/helloworld/" title="Hello World">Hello World</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/markdown/">Markdown</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/markdown/cheatsheet/" title="Markdown Cheatsheet">Markdown Cheatsheet</a></li>
+  
+
+
+      </ul>
+    </li>
   
 
 
@@ -219,8 +259,35 @@
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       
+      
+      
+        
+          <div class="post-card">
+  <a href="/posts/general/helloworld/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Hello World</h5>
+        <p class="card-text post-summary">Aller Anfang ist schwer &hellip; Da bin ich also mit meinem eigenen Blogprojekt. Entstanden daraus, dass ich bei YouTube ein Video über HUGO Statische Websites gesehen habe und es eine spannende Herausforderung fand.
+Das Video ist jetzt schon wieder mehrere Monate her, aber wer hat schon Zeit sich dann um die Projekte zu kümmern. Letztendlich waren es die Weihnachtsfeiertage 2022 die mir die nötige Zeit geschenkt haben mich jetzt doch noch um den Blog zu kümmern.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">January 6, 2023</span>
+        <a
+        href="/posts/general/helloworld/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Lesen</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
       
     </div>
     <div class="paginator">
@@ -307,7 +374,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#about">About</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com#about">About</a>
                 </li>
               
               
@@ -316,7 +383,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#skills">Skills</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com#skills">Skills</a>
                 </li>
               
               
@@ -325,7 +392,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com#experiences">Berufserfahrung</a>
                 </li>
               
               
@@ -335,7 +402,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#projects">Projects</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com#projects">Projekte</a>
                 </li>
               
               
@@ -353,7 +420,7 @@
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>Kontaktiere mich:</h5>
           <ul>
             
               
@@ -364,7 +431,7 @@
             
               
                 <li><a href=https://www.linkedin.com/in/matthias-g%c3%b6tze-480669100 target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Goetze</span>
+                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Götze</span>
                 </a></li>
               
             
@@ -378,7 +445,7 @@
     
     <hr />
     <div class="container">
-      <p id="disclaimer"><strong>Liability Notice:</strong> </p>
+      <p id="disclaimer"><strong>Haftungshinweis:</strong> </p>
     </div>
     
     
@@ -393,7 +460,7 @@
         </div>
         <div class="col-md-4 text-center">© 2023 Copyright.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Unterstützt von
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
@@ -424,13 +491,7 @@
 
     
     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-  <script src="/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/js/note.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  
+    <script src="/js/list.js"></script>
 
 
     
