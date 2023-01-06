@@ -1,15 +1,369 @@
-<!doctype html><html><head><title>Markdown Cheatsheet</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/css/bootstrap.min.css><link rel=stylesheet href=/css/layouts/main.css><link rel=stylesheet href=/css/navigators/navbar.css><link rel=stylesheet href=/css/plyr.css><link rel=stylesheet href=/css/flag-icon.min.css><link rel=stylesheet href=/google-fonts/Mulish/mulish.css><link rel=stylesheet href=/fontawesome/css/all.min.css><link rel=stylesheet href=/css/colortheme/colortheme.css><link rel=icon type=image/png href=/images/site/favicon_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png><meta property="og:title" content="Markdown Cheatsheet"><meta property="og:description" content="Markdown rendering samples"><meta property="og:type" content="article"><meta property="og:url" content="https://matthiasgoetze.com/en/posts/markdown/cheatsheet/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-01-06T14:50:25+01:00"><meta property="article:modified_time" content="2023-01-06T14:50:25+01:00"><meta property="og:site_name" content="Matthias' blog"><meta name=description content="Markdown rendering samples"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/css/layouts/single.css><link rel=stylesheet href=/css/navigators/sidebar.css><link rel=stylesheet href=/css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
-<span class=navbar-toggler-icon></span></button>
-<a class=navbar-brand href=/en><img src=/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png alt=Logo>
-Matthias' blog</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><span class="flag-icon flag-icon-gb"></span>
-Englisch</a><div class=dropdown-menu aria-labelledby=languageSelector><a class="dropdown-item nav-link languages-item" href=/de/posts/markdown/cheatsheet><span class="flag-icon flag-icon-de"></span>
-Deutsch</a></div></li><li class="nav-item dropdown"><div id=theme-initialization style=display:none default-theme=system></div><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# onclick=enableLightTheme()><img class=menu-icon-center src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme"></a>
-<a class="dropdown-item nav-link" href=# onclick=enableDarkTheme()><img class=menu-icon-center src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a>
-<a class="dropdown-item nav-link" href=# onclick=useSystemTheme()><img class=menu-icon-center src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
-<img src=/images/site/inverted-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/en/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/en/posts/ data-filter=all>Posts</a></li><div class=subtree><li><i class="fas fa-plus-circle"></i><a href=/en/posts/general/>General</a><ul><li><a href=/en/posts/general/helloworld/ title="Hello World">Hello World</a></li></ul></li><li><i class="fas fa-minus-circle"></i><a class=active href=/en/posts/markdown/>Markdown</a><ul class=active><li><a class=active href=/en/posts/markdown/cheatsheet/ title="Markdown Cheatsheet">Markdown Cheatsheet</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/images/default-hero.jpg)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/images/author/matthias_hud68880b89c14b1fd89b4f9bd866d818e_67206_120x120_fit_box_3.png alt="Author Image"><h5 class=author-name>Matthias Goetze</h5><p>Friday, January 6, 2023</p></div><div class=title><h1>Markdown Cheatsheet</h1></div><div class=taxonomy-terms><ul style=padding-left:0></ul></div><div class=post-content id=post-content><p>To be honest, this list is stolen, stolen from the original author of the TOHA theme I&rsquo;m using for this site. Thank you for preparing this is, so I can use it as well <a href=https://github.com/hugo-toha target=_blank rel=noopener>@hossainemruz</a></p><p>This is a sample post intended to test the followings:</p><ul><li>A different post author.</li><li>Table of contents.</li><li>Markdown content rendering.</li><li>Math rendering.</li><li>Emoji rendering.</li></ul><hr><h1 id=markdown-syntax-rendering>Markdown Syntax Rendering</h1><h2 id=headings>Headings</h2><p>The following HTML <code>&lt;h1></code>—<code>&lt;h6></code> elements represent six levels of section headings. <code>&lt;h1></code> is the highest section level while <code>&lt;h6></code> is the lowest.</p><h1 id=h1>H1</h1><h2 id=h2>H2</h2><h3 id=h3>H3</h3><h4 id=h4>H4</h4><h5 id=h5>H5</h5><h6 id=h6>H6</h6><h2 id=paragraph>Paragraph</h2><p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p><p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p><h2 id=blockquotes>Blockquotes</h2><p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p><h4 id=blockquote-without-attribution>Blockquote without attribution</h4><blockquote><p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p></blockquote><h4 id=blockquote-with-attribution>Blockquote with attribution</h4><blockquote><p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>— <cite>Rob Pike<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></cite></p></blockquote><h2 id=tables>Tables</h2><p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p><table><thead><tr><th>Name</th><th>Age</th></tr></thead><tbody><tr><td>Bob</td><td>27</td></tr><tr><td>Alice</td><td>23</td></tr></tbody></table><h4 id=inline-markdown-within-tables>Inline Markdown within tables</h4><table><thead><tr><th>Inline   </th><th>Markdown   </th><th>In   </th><th>Table</th></tr></thead><tbody><tr><td><em>italics</em></td><td><strong>bold</strong></td><td><del>strikethrough</del>   </td><td><code>code</code></td></tr></tbody></table><h2 id=code-blocks>Code Blocks</h2><h4 id=code-block-with-backticks>Code block with backticks</h4><pre tabindex=0><code>html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Markdown Cheatsheet</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="/google-fonts/Mulish/mulish.css"/>
+
+
+<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+
+
+
+<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Markdown Cheatsheet" />
+<meta property="og:description" content="Markdown rendering samples" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://matthiasgoetze.com/en/posts/markdown/cheatsheet/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-06T14:50:25+01:00" />
+<meta property="article:modified_time" content="2023-01-06T14:50:25+01:00" /><meta property="og:site_name" content="Matthias&#39; blog" />
+
+
+    
+    
+<meta name="description" content="Markdown rendering samples" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+
+    
+
+
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/en">
+      
+        <img src="/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" alt="Logo">
+      Matthias&#39; blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+        
+        <span class="flag-icon flag-icon-gb"></span>
+      
+      Englisch
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/markdown/cheatsheet">
+          
+            
+            <span class="flag-icon flag-icon-de"></span>
+          
+          Deutsch
+        </a>
+      
+    </div>
+</li>
+
+      
+      
+        <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="system"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/inverted-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/en/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/en/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/en/posts/general/">General</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/en/posts/general/helloworld/" title="Hello World">Hello World</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/en/posts/markdown/">Markdown</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/en/posts/markdown/cheatsheet/" title="Markdown Cheatsheet">Markdown Cheatsheet</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/matthias_hud68880b89c14b1fd89b4f9bd866d818e_67206_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Matthias Goetze</h5>
+          <p>Friday, January 6, 2023</p>
+        </div>
+
+        <div class="title">
+          <h1>Markdown Cheatsheet</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+          <ul style="padding-left: 0;">
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>To be honest, this list is stolen, stolen from the original author of the TOHA theme I&rsquo;m using for this site. Thank you for preparing this is, so I can use it as well <a href="https://github.com/hugo-toha" target="_blank" rel="noopener">@hossainemruz</a></p>
+<p>This is a sample post intended to test the followings:</p>
+<ul>
+<li>A different post author.</li>
+<li>Table of contents.</li>
+<li>Markdown content rendering.</li>
+<li>Math rendering.</li>
+<li>Emoji rendering.</li>
+</ul>
+<hr>
+<h1 id="markdown-syntax-rendering">Markdown Syntax Rendering</h1>
+<h2 id="headings">Headings</h2>
+<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraph">Paragraph</h2>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h2 id="tables">Tables</h2>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+<table>
+<thead>
+<tr>
+<th>Inline   </th>
+<th>Markdown   </th>
+<th>In   </th>
+<th>Table</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><del>strikethrough</del>   </td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-blocks">Code Blocks</h2>
+<h4 id="code-block-with-backticks">Code block with backticks</h4>
+<pre tabindex="0"><code>html
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -20,7 +374,8 @@ Deutsch</a></div></li><li class="nav-item dropdown"><div id=theme-initialization
   &lt;p&gt;Test&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre><h4 id=code-block-indented-with-four-spaces>Code block indented with four spaces</h4><pre><code>&lt;!DOCTYPE html&gt;
+</code></pre><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -30,59 +385,337 @@ Deutsch</a></div></li><li class="nav-item dropdown"><div id=theme-initialization
   &lt;p&gt;Test&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre><h4 id=code-block-with-hugos-internal-highlight-shortcode>Code block with Hugo&rsquo;s internal highlight shortcode</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span><span style=color:#75715e>&lt;!DOCTYPE html&gt;</span>
-</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>html</span> <span style=color:#a6e22e>lang</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;en&#34;</span>&gt;
-</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>head</span>&gt;
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>meta</span> <span style=color:#a6e22e>charset</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;UTF-8&#34;</span>&gt;
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>title</span>&gt;Example HTML5 Document&lt;/<span style=color:#f92672>title</span>&gt;
-</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>head</span>&gt;
-</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>body</span>&gt;
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>p</span>&gt;Test&lt;/<span style=color:#f92672>p</span>&gt;
-</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>body</span>&gt;
-</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>html</span>&gt;</span></span></code></pre></div><h2 id=list-types>List Types</h2><h4 id=ordered-list>Ordered List</h4><ol><li>First item</li><li>Second item</li><li>Third item</li></ol><h4 id=unordered-list>Unordered List</h4><ul><li>List item</li><li>Another item</li><li>And another item</li></ul><h4 id=nested-list>Nested list</h4><ul><li>Fruit<ul><li>Apple</li><li>Orange</li><li>Banana</li></ul></li><li>Dairy<ul><li>Milk</li><li>Cheese</li></ul></li></ul><h2 id=other-elements--abbr-sub-sup-kbd-mark>Other Elements — abbr, sub, sup, kbd, mark</h2><p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p><p>H<sub>2</sub>O</p><p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p><p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p><p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p><hr><h2 id=math-rendering>Math Rendering</h2><p>Block math:
+</code></pre>
+<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;</span></span></code></pre></div>
+<h2 id="list-types">List Types</h2>
+<h4 id="ordered-list">Ordered List</h4>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h4 id="unordered-list">Unordered List</h4>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h4 id="nested-list">Nested list</h4>
+<ul>
+<li>Fruit
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+</li>
+<li>Dairy
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+</ul>
+</li>
+</ul>
+<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<hr>
+<h2 id="math-rendering">Math Rendering</h2>
+
+<p>Block math:
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p><hr><h2 id=emoji-rendering>Emoji Rendering</h2><p><span class=nowrap><span class=emojify>🙈</span> <code>🙈</code></span> <span class=nowrap><span class=emojify>🙉</span> <code>🙉</code></span> <span class=nowrap><span class=emojify>🙊</span> <code>🙊</code></span></p><br><p>This is a sample post intended to test the followings:</p><ul><li>Default hero image.</li><li>Different shortcodes.</li></ul><h2 id=alert>Alert</h2><p>The following alerts are available in this theme.</p><div class="alert alert-success"><strong>This is sample alert with <code>type="success"</code>.</strong></div><div class="alert alert-danger"><strong>This is sample alert with <code>type="danger"</code>.</strong></div><div class="alert alert-warning"><strong>This is sample alert with <code>type="warning"</code>.</strong></div><div class="alert alert-info"><strong>This is sample alert with <code>type="info"</code>.</strong></div><div class="alert alert-dark"><strong>This is sample alert with <code>type="dark"</code>.</strong></div><div class="alert alert-primary"><strong>This is sample alert with <code>type="primary"</code>.</strong></div><div class="alert alert-secondary"><strong>This is sample alert with <code>type="secondary"</code>.</strong></div><h2 id=image>Image</h2><h4 id=a-sample-image-without-any-attribute>A sample image without any attribute.</h4><img src=/posts/shortcodes/boat.jpg alt="A boat at the sea"><div style=margin-top:3rem></div><h4 id=a-sample-image-with-height-and-width-attributes>A sample image with <code>height</code> and <code>width</code> attributes.</h4><img src=/posts/shortcodes/boat.jpg alt="A boat at the sea" width=600 height=400><div style=margin-top:3rem></div><h4 id=a-center-aligned-image-with-height-and-width-attributes>A center aligned image with <code>height</code> and <code>width</code> attributes.</h4><img src=/posts/shortcodes/boat.jpg alt="A boat at the sea" width=600 height=400 class=center><div style=margin-top:3rem></div><h4 id=a-image-with-float-attribute>A image with <code>float</code> attribute.</h4><img src=/posts/shortcodes/boat.jpg alt="A boat at the sea" width=500 height=200 style=float:right><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.</p><p>Fusce vulputate dolor augue, ut porta sapien fringilla nec. Vivamus commodo erat felis, a sodales lectus finibus nec. In a pulvinar orci. Maecenas suscipit eget lorem non pretium. Nulla aliquam a augue nec blandit. Curabitur ac urna iaculis, ornare ligula nec, placerat nulla. Maecenas aliquam nisi vitae tempus vulputate.</p><h2 id=split>Split</h2><p>This theme support splitting the page into as many columns as you wish.</p><h4 id=two-column-split>Two column split</h4><div class=row><div class="col col-sm-12 col-lg-6"><h5 id=left-column>Left Column</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.</div><div class="col col-sm-12 col-lg-6"><h5 id=right-column>Right Column</h5><p>Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.</div></div><h4 id=three-column-split>Three column split</h4><div class=row><div class="col col-sm-12 col-lg-4"><h5 id=left-column>Left Column</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.</div><div class="col col-sm-12 col-lg-4"><h5 id=middle-column>Middle Column</h5><p>Aenean dignissim dictum ex. Donec a nunc vel nibh placerat interdum.</div><div class="col col-sm-12 col-lg-4"><h5 id=right-column>Right Column</h5><p>Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.</div></div><h2 id=vertical-space>Vertical Space</h2><p>Give vertical space between two lines.</p><p>This is line one.<div style=margin-top:4rem></div>This is line two. It should have <code>4rem</code> vertical space with previous line.</p><h2 id=video>Video</h2><video class=video-player id=video-43 playsinline controls>
-<source src=/videos/sample.mp4 type=video/mp4></video><p>Video by <a href=https://www.pexels.com/@rahul-sharma-493988 target=_blank rel=noopener>Rahul Sharma</a> from <a href=https://www.pexels.com target=_blank rel=noopener>Pexels</a>.</p><h2 id=mermaid>Mermaid</h2><p>Here, are few example of mermaid shortcode.</p><p><strong>Graph:</strong></p><div class=mermaid align=left style=background-color:none;border-radius:5px>graph LR;
-A[Hard edge] -->|Link text| B(Round edge)
-B --> C{Decision}
-C -->|One| D[Result one]
-C -->|Two| E[Result two]</div><p><strong>Sequence Diagram:</strong></p><div class=mermaid align=center style=background-color:none;border-radius:5px>sequenceDiagram
-participant Alice
-participant Bob
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts<br>prevail!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!</div><p><strong>Gantt diagram:</strong></p><div class=mermaid align=center style=background-color:none;border-radius:5px>gantt
-dateFormat YYYY-MM-DD
-title Adding GANTT diagram to mermaid
-excludes weekdays 2014-01-10
+$$</p>
+<hr>
+<h2 id="emoji-rendering">Emoji Rendering</h2>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>🙈</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>🙉</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>🙊</code></span></p>
+<br>
+<p>This is a sample post intended to test the followings:</p>
+<ul>
+<li>Default hero image.</li>
+<li>Different shortcodes.</li>
+</ul>
+<h2 id="alert">Alert</h2>
+<p>The following alerts are available in this theme.</p>
+<div class="alert alert-success">
+    <strong>This is sample alert with <code>type=&quot;success&quot;</code>.</strong>
+</div>
+
+<div class="alert alert-danger">
+    <strong>This is sample alert with <code>type=&quot;danger&quot;</code>.</strong>
+</div>
+
+<div class="alert alert-warning">
+    <strong>This is sample alert with <code>type=&quot;warning&quot;</code>.</strong>
+</div>
+
+<div class="alert alert-info">
+    <strong>This is sample alert with <code>type=&quot;info&quot;</code>.</strong>
+</div>
+
+<div class="alert alert-dark">
+    <strong>This is sample alert with <code>type=&quot;dark&quot;</code>.</strong>
+</div>
+
+<div class="alert alert-primary">
+    <strong>This is sample alert with <code>type=&quot;primary&quot;</code>.</strong>
+</div>
+
+<div class="alert alert-secondary">
+    <strong>This is sample alert with <code>type=&quot;secondary&quot;</code>.</strong>
+</div>
+
+<h2 id="image">Image</h2>
+<h4 id="a-sample-image-without-any-attribute">A sample image without any attribute.</h4>
+<img src="/posts/shortcodes/boat.jpg"
+    
+        alt="A boat at the sea"
+    
+    
+    
+    
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<h4 id="a-sample-image-with-height-and-width-attributes">A sample image with <code>height</code> and <code>width</code> attributes.</h4>
+<img src="/posts/shortcodes/boat.jpg"
+    
+        alt="A boat at the sea"
+    
+    
+        width="600"
+    
+    
+        height="400"
+    
+    
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<h4 id="a-center-aligned-image-with-height-and-width-attributes">A center aligned image with <code>height</code> and <code>width</code> attributes.</h4>
+<img src="/posts/shortcodes/boat.jpg"
+    
+        alt="A boat at the sea"
+    
+    
+        width="600"
+    
+    
+        height="400"
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<h4 id="a-image-with-float-attribute">A image with <code>float</code> attribute.</h4>
+<img src="/posts/shortcodes/boat.jpg"
+    
+        alt="A boat at the sea"
+    
+    
+        width="500"
+    
+    
+        height="200"
+    
+    
+        style="float: right;"
+    
+    
+>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.</p>
+<p>Fusce vulputate dolor augue, ut porta sapien fringilla nec. Vivamus commodo erat felis, a sodales lectus finibus nec. In a pulvinar orci. Maecenas suscipit eget lorem non pretium. Nulla aliquam a augue nec blandit. Curabitur ac urna iaculis, ornare ligula nec, placerat nulla. Maecenas aliquam nisi vitae tempus vulputate.</p>
+<h2 id="split">Split</h2>
+<p>This theme support splitting the page into as many columns as you wish.</p>
+<h4 id="two-column-split">Two column split</h4>
+<div class="row">
+    
+       <div class="col col-sm-12 col-lg-6">
+            <h5 id="left-column">Left Column</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.
+        </div>
+    
+       <div class="col col-sm-12 col-lg-6">
+            <h5 id="right-column">Right Column</h5>
+<p>Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.
+        </div>
+    
+</div>
+
+<h4 id="three-column-split">Three column split</h4>
+<div class="row">
+    
+       <div class="col col-sm-12 col-lg-4">
+            <h5 id="left-column">Left Column</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.
+        </div>
+    
+       <div class="col col-sm-12 col-lg-4">
+            <h5 id="middle-column">Middle Column</h5>
+<p>Aenean dignissim dictum ex. Donec a nunc vel nibh placerat interdum.
+        </div>
+    
+       <div class="col col-sm-12 col-lg-4">
+            <h5 id="right-column">Right Column</h5>
+<p>Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.
+        </div>
+    
+</div>
+
+<h2 id="vertical-space">Vertical Space</h2>
+<p>Give vertical space between two lines.</p>
+<p>This is line one.
+<div style="margin-top: 4rem;"></div>
+This is line two. It should have <code>4rem</code> vertical space with previous line.</p>
+<h2 id="video">Video</h2>
+
+
+
+
+
+<video class="video-player" id="video-46" playsinline controls>
+  <source src="/videos/sample.mp4" type="video/mp4" />
+</video>
+
+<!-- markdown-link-check-disable-next-line -->
+<p>Video by <a href="https://www.pexels.com/@rahul-sharma-493988" target="_blank" rel="noopener">Rahul Sharma</a> from <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a>.</p>
+<h2 id="mermaid">Mermaid</h2>
+<p>Here, are few example of mermaid shortcode.</p>
+<p><strong>Graph:</strong></p>
+
+
+
+
+
+    
+
+
+<div class="mermaid" align="left" style="background-color: none; border-radius: 5px;">
+    
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+
+</div>
+
+<p><strong>Sequence Diagram:</strong></p>
+
+
+    
+
+
+
+
+    
+
+
+<div class="mermaid" align="center" style="background-color: none; border-radius: 5px;">
+    
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+
+</div>
+
+<p><strong>Gantt diagram:</strong></p>
+
+
+    
+
+
+
+
+    
+
+
+<div class="mermaid" align="center" style="background-color: none; border-radius: 5px;">
+    
+gantt
+  dateFormat  YYYY-MM-DD
+  title Adding GANTT diagram to mermaid
+  excludes weekdays 2014-01-10
+
 section A section
-Completed task :done, des1, 2014-01-06,2014-01-08
-Active task :active, des2, 2014-01-09, 3d
-Future task : des3, after des2, 5d
-Future task2 : des4, after des3, 5d</div><p><strong>Class Diagram:</strong></p><div class=mermaid align=center style=background-color:none;border-radius:5px>classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label</div><p><strong>Git Graph:</strong></p><div class=mermaid align=right style=background-color:#000;border-radius:5px>gitGraph:
+  Completed task            :done,    des1, 2014-01-06,2014-01-08
+  Active task               :active,  des2, 2014-01-09, 3d
+  Future task               :         des3, after des2, 5d
+  Future task2               :         des4, after des3, 5d
+
+</div>
+
+<p><strong>Class Diagram:</strong></p>
+
+
+    
+
+
+
+
+    
+
+
+<div class="mermaid" align="center" style="background-color: none; border-radius: 5px;">
+    
+classDiagram
+  Class01 <|-- AveryLongClass : Cool
+  Class03 *-- Class04
+  Class05 o-- Class06
+  Class07 .. Class08
+  Class09 --> C2 : Where am i?
+  Class09 --* C3
+  Class09 --|> Class07
+  Class07 : equals()
+  Class07 : Object[] elementData
+  Class01 : size()
+  Class01 : int chimp
+  Class01 : int gorilla
+  Class08 <--> C2: Cool label
+
+</div>
+
+<p><strong>Git Graph:</strong></p>
+
+
+
+
+
+
+<div class="mermaid" align="right" style="background-color: black; border-radius: 5px;">
+    
+gitGraph:
 options
 {
-"nodeSpacing": 150,
-"nodeRadius": 10
+    "nodeSpacing": 150,
+    "nodeRadius": 10
 }
 end
 commit
@@ -93,28 +726,550 @@ commit
 checkout master
 commit
 commit
-merge newbranch</div><p><strong>ER Diagram:</strong></p><div class=mermaid align=center style=background-color:none;border-radius:5px>erDiagram
-CUSTOMER ||--o{ ORDER : places
-ORDER ||--|{ LINE-ITEM : contains
-CUSTOMER }|..|{ DELIVERY-ADDRESS : uses</div><h2 id=gist>Gist</h2><script type=application/javascript src=https://gist.github.com/hossainemruz/4ad86c9b6378677e14eff12713e75e44.js></script><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target=_blank rel=noopener>talk</a> during Gopherfest, November 18, 2015.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div><div class="row pl-3 pr-3"><div class="col-md-6 share-buttons"><strong>Share on:</strong>
-<a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fmatthiasgoetze.com%2fen%2fposts%2fmarkdown%2fcheatsheet%2f&text=Markdown%20Cheatsheet&via=Matthias%27%20blog" target=_blank><i class="fab fa-twitter"></i></a>
-<a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fmatthiasgoetze.com%2fen%2fposts%2fmarkdown%2fcheatsheet%2f&title=Markdown%20Cheatsheet" target=_blank><i class="fab fa-linkedin"></i></a>
-<a class="btn btn-sm email-btn" href="mailto:?subject=Markdown%20Cheatsheet&body=https%3a%2f%2fmatthiasgoetze.com%2fen%2fposts%2fmarkdown%2fcheatsheet%2f" target=_blank><i class="fas fa-envelope-open-text"></i></a></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/MatthiasG-GIT/blog/edit/main/content/posts/Markdown/Cheatsheet/index.en.md title="Improve this page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>
-Improve this page</a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/en/posts/general/helloworld/ title="Hello World" class="btn btn-outline-info"><div><i class="fas fa-chevron-circle-left"></i> Prev</div><div class=next-prev-text>Hello World</div></a></div></div><hr><div id=disqus_thread></div><script type=text/javascript>(function(){if(window.location.hostname=="localhost")return;var t,e=document.createElement("script");e.type="text/javascript",e.async=!0,t="matthiasgoetze-com",e.src="//"+t+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script><noscript>Please enable JavaScript to view the
-<a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></div><a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a><div class="dropdown languageSelector"><a class="btn dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><span class="flag-icon flag-icon-gb"></span>
-Englisch</a><div class=dropdown-menu aria-labelledby=languageSelector><a class="dropdown-item nav-link languages-item" href=/de/posts/markdown/cheatsheet><span class="flag-icon flag-icon-de"></span>
-Deutsch</a></div></div></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#headings>Headings</a></li></ul><ul><li><a href=#h2>H2</a><ul><li><a href=#h3>H3</a><ul><li><a href=#h4>H4</a><ul><li><a href=#h5>H5</a><ul><li><a href=#h6>H6</a></li></ul></li></ul></li></ul></li></ul></li><li><a href=#paragraph>Paragraph</a></li><li><a href=#blockquotes>Blockquotes</a><ul><li><ul><li><a href=#blockquote-without-attribution>Blockquote without attribution</a></li><li><a href=#blockquote-with-attribution>Blockquote with attribution</a></li></ul></li></ul></li><li><a href=#tables>Tables</a><ul><li><ul><li><a href=#inline-markdown-within-tables>Inline Markdown within tables</a></li></ul></li></ul></li><li><a href=#code-blocks>Code Blocks</a><ul><li><ul><li><a href=#code-block-with-backticks>Code block with backticks</a></li><li><a href=#code-block-indented-with-four-spaces>Code block indented with four spaces</a></li><li><a href=#code-block-with-hugos-internal-highlight-shortcode>Code block with Hugo&rsquo;s internal highlight shortcode</a></li></ul></li></ul></li><li><a href=#list-types>List Types</a><ul><li><ul><li><a href=#ordered-list>Ordered List</a></li><li><a href=#unordered-list>Unordered List</a></li><li><a href=#nested-list>Nested list</a></li></ul></li></ul></li><li><a href=#other-elements--abbr-sub-sup-kbd-mark>Other Elements — abbr, sub, sup, kbd, mark</a></li><li><a href=#math-rendering>Math Rendering</a></li><li><a href=#emoji-rendering>Emoji Rendering</a></li><li><a href=#alert>Alert</a></li><li><a href=#image>Image</a><ul><li><ul><li><a href=#a-sample-image-without-any-attribute>A sample image without any attribute.</a></li><li><a href=#a-sample-image-with-height-and-width-attributes>A sample image with <code>height</code> and <code>width</code> attributes.</a></li><li><a href=#a-center-aligned-image-with-height-and-width-attributes>A center aligned image with <code>height</code> and <code>width</code> attributes.</a></li><li><a href=#a-image-with-float-attribute>A image with <code>float</code> attribute.</a></li></ul></li></ul></li><li><a href=#split>Split</a><ul><li><ul><li><a href=#two-column-split>Two column split</a></li><li><a href=#three-column-split>Three column split</a></li></ul></li></ul></li><li><a href=#vertical-space>Vertical Space</a></li><li><a href=#video>Video</a></li><li><a href=#mermaid>Mermaid</a></li><li><a href=#gist>Gist</a></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://matthiasgoetze.com/en/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://matthiasgoetze.com/en/#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=https://matthiasgoetze.com/en/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://matthiasgoetze.com/en/#projects>Projects</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:blog@matthiasgoetze.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>blog@matthiasgoetze.com</span></a></li><li><a href=https://www.linkedin.com/in/matthias-g%c3%b6tze-480669100 target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Matthias Goetze</span></a></li></ul></div></div></div><hr><div class=container><p id=disclaimer><strong>Liability Notice:</strong></p></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
-Toha</a></div><div class="col-md-4 text-center">© 2023 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
-<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
-<script type=text/javascript src=/js/popper.min.js></script>
-<script type=text/javascript src=/js/bootstrap.min.js></script>
-<script type=text/javascript src=/js/navbar.js></script>
-<script type=text/javascript src=/js/plyr.js></script>
-<script type=text/javascript src=/js/main.js></script>
-<script type=text/javascript src=/js/darkreader.js></script>
-<script type=text/javascript src=/js/darkmode-darkreader.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script>
-<script src=/js/single.js></script>
-<script>hljs.initHighlightingOnLoad()</script><link rel=stylesheet href=/katex/katex.min.css><script type=text/javascript defer src=/katex/katex.min.js></script>
-<script type=text/javascript defer src=/katex/auto-render.min.js onload=renderMathInElement(document.body)>renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}]})</script><script src=/js/mermaid-8.14.0.min.js></script>
-<script>mermaid.initialize({startOnLoad:!0})</script></body></html>
+merge newbranch
+
+</div>
+
+<p><strong>ER Diagram:</strong></p>
+
+
+    
+
+
+
+
+    
+
+
+<div class="mermaid" align="center" style="background-color: none; border-radius: 5px;">
+    
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+
+</div>
+
+<h2 id="gist">Gist</h2>
+<script type="application/javascript" src="https://gist.github.com/hossainemruz/4ad86c9b6378677e14eff12713e75e44.js"></script>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Share on:</strong>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fmatthiasgoetze.com%2fen%2fposts%2fmarkdown%2fcheatsheet%2f&text=Markdown%20Cheatsheet&via=Matthias%27%20blog" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fmatthiasgoetze.com%2fen%2fposts%2fmarkdown%2fcheatsheet%2f&title=Markdown%20Cheatsheet" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=Markdown%20Cheatsheet&body=https%3a%2f%2fmatthiasgoetze.com%2fen%2fposts%2fmarkdown%2fcheatsheet%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/MatthiasG-GIT/blog/edit/main/content/posts%5cMarkdown%5cCheatsheet%5cindex.en.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/en/posts/general/helloworld/" title="Hello World" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Hello World</div>
+      </a>
+    </div>
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+        
+    
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function () {
+      
+      
+      if (window.location.hostname == "localhost") return;
+
+      var dsq = document.createElement("script");
+      dsq.type = "text/javascript";
+      dsq.async = true;
+      var disqus_shortname = "matthiasgoetze-com";
+      dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(dsq);
+    })();
+  </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+  <a href="https://disqus.com/" class="dsq-brlink"
+    >comments powered by <span class="logo-disqus">Disqus</span></a
+  >
+
+
+
+
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            
+            <span class="flag-icon flag-icon-gb"></span>
+        
+        Englisch
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/markdown/cheatsheet">
+            
+                
+                <span class="flag-icon flag-icon-de"></span>
+            
+            Deutsch
+        </a>
+        
+    </div>
+</div>
+
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#headings">Headings</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#h2">H2</a>
+      <ul>
+        <li><a href="#h3">H3</a>
+          <ul>
+            <li><a href="#h4">H4</a>
+              <ul>
+                <li><a href="#h5">H5</a>
+                  <ul>
+                    <li><a href="#h6">H6</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#paragraph">Paragraph</a></li>
+    <li><a href="#blockquotes">Blockquotes</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#blockquote-without-attribution">Blockquote without attribution</a></li>
+            <li><a href="#blockquote-with-attribution">Blockquote with attribution</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#tables">Tables</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#inline-markdown-within-tables">Inline Markdown within tables</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#code-blocks">Code Blocks</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#code-block-with-backticks">Code block with backticks</a></li>
+            <li><a href="#code-block-indented-with-four-spaces">Code block indented with four spaces</a></li>
+            <li><a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#list-types">List Types</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#ordered-list">Ordered List</a></li>
+            <li><a href="#unordered-list">Unordered List</a></li>
+            <li><a href="#nested-list">Nested list</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</a></li>
+    <li><a href="#math-rendering">Math Rendering</a></li>
+    <li><a href="#emoji-rendering">Emoji Rendering</a></li>
+    <li><a href="#alert">Alert</a></li>
+    <li><a href="#image">Image</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#a-sample-image-without-any-attribute">A sample image without any attribute.</a></li>
+            <li><a href="#a-sample-image-with-height-and-width-attributes">A sample image with <code>height</code> and <code>width</code> attributes.</a></li>
+            <li><a href="#a-center-aligned-image-with-height-and-width-attributes">A center aligned image with <code>height</code> and <code>width</code> attributes.</a></li>
+            <li><a href="#a-image-with-float-attribute">A image with <code>float</code> attribute.</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#split">Split</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#two-column-split">Two column split</a></li>
+            <li><a href="#three-column-split">Three column split</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#vertical-space">Vertical Space</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#mermaid">Mermaid</a></li>
+    <li><a href="#gist">Gist</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#experiences">Experiences</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/en/#projects">Projects</a>
+                </li>
+              
+              
+              
+              
+              
+            
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:blog@matthiasgoetze.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>blog@matthiasgoetze.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/matthias-g%c3%b6tze-480669100 target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Goetze</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    <hr />
+    <div class="container">
+      <p id="disclaimer"><strong>Liability Notice:</strong> </p>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2023 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+<script type="text/javascript" src="/js/darkreader.js"></script>
+<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
+
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+    <link rel="stylesheet" href="/katex/katex.min.css">
+<script type="text/javascript" defer src="/katex/katex.min.js"></script>
+<script type="text/javascript" defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);">
+    renderMathInElement(
+        document.body,
+        {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        }
+    );
+</script>
+
+
+
+
+
+    <script src="/js/mermaid-8.14.0.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad:true
+    });
+</script>
+
+
+
+
+
+    
+</body>
+</html>

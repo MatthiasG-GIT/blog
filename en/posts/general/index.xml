@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>General on Matthias' blog</title><link>https://matthiasgoetze.com/en/posts/general/</link><description>Recent content in General on Matthias' blog</description><generator>Hugo -- gohugo.io</generator><language>de-de</language><lastBuildDate>Fri, 06 Jan 2023 15:30:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/en/posts/general/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://matthiasgoetze.com/en/posts/general/helloworld/</link><pubDate>Fri, 06 Jan 2023 15:30:25 +0100</pubDate><guid>https://matthiasgoetze.com/en/posts/general/helloworld/</guid><description>Every beginning is hard &amp;hellip; So here I am with my own blog project. It came to me after I saw a video on YouTube about HUGO static websites and found it an exciting challenge.
-The video was several months ago, but who has time to take care of the project then? In the end, it was the Christmas holidays of 2022 that gave me the time I needed to take care of the blog.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Matthias&#39; blog</title>
+    <link>https://matthiasgoetze.com/en/posts/general/</link>
+    <description>Recent content in General on Matthias&#39; blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 06 Jan 2023 15:30:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/en/posts/general/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Hello World</title>
+      <link>https://matthiasgoetze.com/en/posts/general/helloworld/</link>
+      <pubDate>Fri, 06 Jan 2023 15:30:25 +0100</pubDate>
+      
+      <guid>https://matthiasgoetze.com/en/posts/general/helloworld/</guid>
+      <description>Every beginning is hard &amp;hellip; So here I am with my own blog project. It came to me after I saw a video on YouTube about HUGO static websites and found it an exciting challenge.
+The video was several months ago, but who has time to take care of the project then? In the end, it was the Christmas holidays of 2022 that gave me the time I needed to take care of the blog.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
