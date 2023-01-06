@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Microsoft Azure
+  logo: /images/sections/skills/azure.png
+  summary: "Design, deploy and integrate Azure resources"
+  url: "https://azure.microsoft.com/"
+
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "For the realisation of IaC projects, I prefer to use Hashicorp Terraform."
+  url: "https://terraform.io/"
+
+- name: Windows Server
+  logo: /images/sections/skills/windowsserver.jpg
+  summary: "Preferred operating system for environments is Windows Server 2016 or later"
+
+- name: PowerShell
+  logo: /images/sections/skills/powershell.jpg
+  summary: "Preferred scripting environment for the creation of automated tasks"

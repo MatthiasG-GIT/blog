@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: proAlpha Migration Azure
+  logo: /images/sections/projects/proalpha.png
+  role: Azure Architect
+  timeline: "September 2021 - Today"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Deployment of the Azure ERP environment for proAlpha 6.1 and performance tuning
+  tags: ["professional", "azure", "cloud", "proalpha"]
+
+- name: Citrix replacement with Azure Virtual Desktop
+  logo: /images/sections/projects/avd.png
+  role: Azure Architect
+  timeline: "September 2021 - Today"
+  summary: Deployment of an Azure Virtual Desktop environment to replace the Citrix Farm. Complete design in Terraform.
+  tags: ["professional", "azure", "cloud", "avd", "virtual desktop", "terraform"]
+
+- name: This blog
+  logo: /images/sections/projects/hugo.svg
+  role: Nerd?
+  timeline: "Januar 2023 - Present"
+  summary: Because I wanted to test a little with [HUGO](https://gohugo.io/), this blog came into being.
+  tags: ["hobby", "blog", "hugo"]

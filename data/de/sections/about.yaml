@@ -1,0 +1,88 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: IT Cloud Architekt
+# your company information
+company:
+  name: Keller & Kalmbach GmbH
+  url: "https://www.keller-kalmbach.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Ich bin passionierter IT-Architekt mit Wurzeln in onPremise IT-Umgebungen, der den Wandel in Cloud-Infrastrukturen sowohl mitgemacht und mitgestaltet hat.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: E-Mail
+  icon: "fas fa-envelope"
+  url: "mailto:blog@matthiasgoetze.com"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/matthias-g%C3%B6tze-480669100/"
+
+- name: XING
+  icon: "fab fa-xing"
+  url: "https://www.xing.com/profile/Matthias_Goetze4"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/MatthiasG-GIT"
+
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+#resourceLinks:
+#- title: "My Resume"
+#  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Microsoft Certified Azure Solutions Architect
+  url: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-solutions-architect-expert"
+  badge: "https://images.credly.com/size/340x340/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png"
+
+- type: certification
+  name: "Microsoft Certified: Azure Virtual Desktop Specialty"
+  url: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-virtual-desktop-specialty"
+  badge: "https://images.credly.com/size/340x340/images/ea009208-e2d6-432e-bbf6-d34d28b0835f/azure-virtual-desktop-specialty-600x600.png"
+
+- type: certification
+  name: "Microsoft Certified: Azure Administrator"
+  url: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-administrator-associate"
+  badge: "https://images.credly.com/size/340x340/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Englisch (C1)
+  percentage: 85
+  color: "#137a63"
+
+- type: soft-skill-indicator
+  name: Mentoring
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

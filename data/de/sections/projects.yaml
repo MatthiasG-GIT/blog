@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Projekte
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Alle
+  filter: "all"
+- name: Beruflich
+  filter: "beruflich"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: proAlpha Migration Azure
+  logo: /images/sections/projects/proalpha.png
+  role: Azure Architekt
+  timeline: "September 2021 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Bereitstellung der Azure ERP Umgebung für proAlpha 6.1 und Performance Tuning
+  tags: ["beruflich", "azure", "cloud", "proalpha"]
+
+- name: Citrix Ablösung durch Azure Virtual Desktop
+  logo: /images/sections/projects/avd.png
+  role: Azure Architekt
+  timeline: "September 2021 - Heute"
+  summary: Bereitstellung einer Azure Virtual Desktop Umgebung zur Ablösung der Citrix Farm. Komplettes Design in Terraform.
+  tags: ["beruflich", "azure", "cloud", "avd", "virtual desktop", "terraform"]
+
+- name: Dieser Blog
+  logo: /images/sections/projects/hugo.svg
+  role: Developer
+  timeline: "Januar 2023 - Present"
+  summary: Weil ich ein wenig mit HUGO herum testen wollte ist dieser Blog entstanden.
+  tags: ["hobby", "blog", "hugo"]

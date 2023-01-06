@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  #hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Keller & Kalmbach GmbH
+    url: "https://www.keller-kalmbach.com"
+    location: Neuss, Germany
+    # company overview
+    overview: As a family-owned company, we can look back on a 140-year history in which we have always kept an eye on technical progress and have continuously developed our range of services. We are a specialist for fasteners and fixing technology and the expert when it comes to intelligent C-parts management.
+  positions:
+  - designation: IT-Architect
+    start: May 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design und development of the Microsoft Azure infrastructure
+    - Deconstruction of the discontinued on-premises infrastructure
+    - Migration of the Citrix environment to Azure Virtual Desktop
+    - Migration ERP system proAlpha from onPrem tos Azure (IaaS)
+    - Implementing Infrastructure as Code (Terraform)
+    - Introduction of IT-Service-Management
+
+- company:
+    name: Computacenter AG & co. oHG
+    url: "https://www.computacenter.com"
+    location: Ratingen, Germany
+    overview: Computacenter is a leading independent technology partner trusted by large enterprises and public sector organisations. Computacenter employs more than 18,000 people worldwide.
+  positions:
+  - designation: IT-Consultant
+    start: December 2016
+    end: April 2020
+    responsibilities:
+      - Technical Consultant for onPrem Identity & Access Management
+      - Implementation of transformation projects in existing environments or Green-Field
+      - Design and implementation of fully automated identity migration environments (based on Quest Migration Manager)
+  - designation: IT-System-Engineer
+    start: January 2012
+    end: November 2016
+    responsibilities:
+      - Project work in customer projects in the IT Workplace
+      - Technological specialisation in Microsoft Active Directory solutions
+  - designation: IT technician
+    start: April 2010
+    end: December 2011
+- company:
+    name: ASARIS IT GmbH (bankrupt)
+    location: Bottrop, Germany
+    overview: IT Consulting for Microsoft Germany & their partners
+  positions:
+  - designation: Business Solution Consultant
+    start: June 2007
+    end: April 2009
+    responsibilities:
+    - Project management, design and operation of a B2B eCommerce platform for Microsoft Germany GmbH
