@@ -1,7 +1,8 @@
 baseURL: https://matthiasgoetze.com
 
 languageCode: de-de
-title: "Matthias' Blog"
+title: "The cloud architect's playbook"
+copyright: Test
 
 # Use Hugo modules to add theme
 module:
@@ -13,14 +14,14 @@ module:
 languages:
   de:
     languageName: Deutsch
-    weight: 1
+    weight: 10
   en:
     languageName: Englisch
-    weight: 2
-    title: "Matthias' blog"
+    weight: 20
+    title: "The cloud architect's playbook"
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-defaultContentLanguage: de
+# defaultContentLanguage: de
 
 # Allow raw html in markdown file
 markup:
@@ -117,9 +118,9 @@ params:
       #   repoID: your-repo-id
       #   category: your-category
       #   categoryID: your-category-id
-        # theme: light
-        # map: url
-        # reaction: 1
+      #   theme: light
+      #   map: url
+      #   reaction: 1
         # metadata: 0
         # inputPosition: bottom
         # crossOrigin: anonymous
