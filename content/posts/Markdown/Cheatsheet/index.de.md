@@ -1,5 +1,5 @@
 ---
-title: "Markdown Samples"
+title: "Markdown Cheatsheet"
 date: 2023-01-06T14:50:25+01:00
 description: Markdown rendering samples
 menu:
