@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Allgemein on Matthias&#39; Blog</title>
+    <title>General on The cloud architect&#39;s playbook</title>
     <link>https://matthiasgoetze.com/posts/general/</link>
-    <description>Recent content in Allgemein on Matthias&#39; Blog</description>
+    <description>Recent content in General on The cloud architect&#39;s playbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
+    <copyright>Test</copyright>
     <lastBuildDate>Fri, 06 Jan 2023 15:30:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/posts/general/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Hello World</title>
       <link>https://matthiasgoetze.com/posts/general/helloworld/</link>
       <pubDate>Fri, 06 Jan 2023 15:30:25 +0100</pubDate>
       
       <guid>https://matthiasgoetze.com/posts/general/helloworld/</guid>
-      <description>Aller Anfang ist schwer &amp;hellip; Da bin ich also mit meinem eigenen Blogprojekt. Entstanden daraus, dass ich bei YouTube ein Video über HUGO Statische Websites gesehen habe und es eine spannende Herausforderung fand.
-Das Video ist jetzt schon wieder mehrere Monate her, aber wer hat schon Zeit sich dann um die Projekte zu kümmern. Letztendlich waren es die Weihnachtsfeiertage 2022 die mir die nötige Zeit geschenkt haben mich jetzt doch noch um den Blog zu kümmern.</description>
+      <description>Every beginning is hard &amp;hellip; So here I am with my own blog project. It came to me after I saw a video on YouTube about HUGO static websites and found it an exciting challenge.
+The video was several months ago, but who has time to take care of the project then? In the end, it was the Christmas holidays of 2022 that gave me the time I needed to take care of the blog.</description>
     </item>
     
     

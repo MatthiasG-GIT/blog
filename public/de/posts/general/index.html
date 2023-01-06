@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ToDo</title>
+    <title>Allgemein</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -39,20 +39,19 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="ToDo" />
+<meta property="og:title" content="Allgemein" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://matthiasgoetze.com/notes/blog/todo/" /><meta property="og:site_name" content="The cloud architect&#39;s playbook" />
+<meta property="og:url" content="https://matthiasgoetze.com/de/posts/general/" />
 
 
     
     
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-  />
-  <link rel="stylesheet" href="/css/layouts/notes.css">
-  <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
 
 
     
@@ -102,7 +101,7 @@
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/de">
       
         <img src="/images/site/main-logo_hud68880b89c14b1fd89b4f9bd866d818e_67206_42x0_resize_box_3.png" alt="Logo">
       The cloud architect&#39;s playbook</a>
@@ -122,18 +121,18 @@
     <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       
         
-        <span class="flag-icon flag-icon-gb"></span>
+        <span class="flag-icon flag-icon-de"></span>
       
-      Englisch
+      Deutsch
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/de/notes/blog/todo">
+        <a class="dropdown-item nav-link languages-item" href="/posts/general">
           
             
-            <span class="flag-icon flag-icon-de"></span>
+            <span class="flag-icon flag-icon-gb"></span>
           
-          Deutsch
+          Englisch
         </a>
       
     </div>
@@ -186,12 +185,12 @@
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/search">
-          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        <form class="mx-auto" method="get" action="/de/search">
+          <input type="text" name="keyword" value="" placeholder="Suche" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/de/posts" data-filter="all">Beiträge</a></li>
             <div class="subtree">
                 
   
@@ -204,21 +203,7 @@
   
     
     <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/notes/blog/">Blog Notes</a>
-      
-      <ul class="active">
-        
-  
-  
-  
-  
-    
-    
-  
-  
-    
-    <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/notes/blog/todo/">ToDo</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/de/posts/general/">Allgemein</a>
       
       <ul class="active">
         
@@ -228,12 +213,32 @@
   
   
     
-    <li><a class="" href="/notes/blog/todo/checklist/" title="Checkliste">Checkliste</a></li>
+    <li><a class="" href="/de/posts/general/helloworld/" title="Hello World">Hello World</a></li>
   
 
 
       </ul>
     </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/de/posts/markdown/">Markdown</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/de/posts/markdown/cheatsheet/" title="Markdown Cheatsheet">Markdown Cheatsheet</a></li>
   
 
 
@@ -254,53 +259,33 @@
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       
       
+      
         
-          <!-- Checkliste -->
-<div class="note-card ">
-    <div class="item">
-        <h5 class="note-title"><span>Checkliste Übersetzungen</span></h5>
-        
-            <div class="card">
-                <div class="card-body"><ul>
-<li><input checked="" disabled="" type="checkbox"> <strong>Sections ins englische Übersetzen</strong>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Intro-Seite</li>
-<li><input checked="" disabled="" type="checkbox"> About Seite</li>
-<li><input checked="" disabled="" type="checkbox"> Skills</li>
-<li><input checked="" disabled="" type="checkbox"> Erfahrung</li>
-<li><input checked="" disabled="" type="checkbox"> Projekte</li>
-</ul>
-</li>
-</ul>
-</div>
-            </div>
-        
+          <div class="post-card">
+  <a href="/de/posts/general/helloworld/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Hello World</h5>
+        <p class="card-text post-summary">Aller Anfang ist schwer &hellip; Da bin ich also mit meinem eigenen Blogprojekt. Entstanden daraus, dass ich bei YouTube ein Video über HUGO Statische Websites gesehen habe und es eine spannende Herausforderung fand.
+Das Video ist jetzt schon wieder mehrere Monate her, aber wer hat schon Zeit sich dann um die Projekte zu kümmern. Letztendlich waren es die Weihnachtsfeiertage 2022 die mir die nötige Zeit geschenkt haben mich jetzt doch noch um den Blog zu kümmern.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">January 6, 2023</span>
+        <a
+        href="/de/posts/general/helloworld/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Lesen</a
+        >
+      </div>
     </div>
+  </a>
 </div>
-
-<!-- Blogposts -->
-<div class="note-card ">
-    <div class="item">
-        <h5 class="note-title"><span>Checkliste Übersetzungen</span></h5>
-        
-            <div class="card">
-                <div class="card-body"><ul>
-<li><input disabled="" type="checkbox"> <strong>Blogposts schreiben (DE&amp;EN)</strong>
-<ul>
-<li><input disabled="" type="checkbox"> Hello World Post</li>
-<li><input disabled="" type="checkbox"> Erster Post (Beruflich)</li>
-</ul>
-</li>
-</ul>
-</div>
-            </div>
-        
-    </div>
-</div>
-
 
         
       
@@ -389,7 +374,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com#about">About</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/de/#about">About</a>
                 </li>
               
               
@@ -398,7 +383,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com#skills">Skills</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/de/#skills">Skills</a>
                 </li>
               
               
@@ -407,7 +392,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/de/#experiences">Berufserfahrung</a>
                 </li>
               
               
@@ -417,7 +402,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://matthiasgoetze.com#projects">Projects</a>
+                  <a class="smooth-scroll" href="https://matthiasgoetze.com/de/#projects">Projekte</a>
                 </li>
               
               
@@ -435,7 +420,7 @@
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>Kontaktiere mich:</h5>
           <ul>
             
               
@@ -446,7 +431,7 @@
             
               
                 <li><a href=https://www.linkedin.com/in/matthias-g%c3%b6tze-480669100 target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Goetze</span>
+                  <span><i class="fab fa-linkedin"></i></span> <span>Matthias Götze</span>
                 </a></li>
               
             
@@ -460,7 +445,7 @@
     
     <hr />
     <div class="container">
-      <p id="disclaimer"><strong>Liability Notice:</strong> </p>
+      <p id="disclaimer"><strong>Haftungshinweis:</strong> </p>
     </div>
     
     
@@ -475,7 +460,7 @@
         </div>
         <div class="col-md-4 text-center">© 2023 Copyright.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Unterstützt von
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
@@ -506,13 +491,7 @@
 
     
     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-  <script src="/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/js/note.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  
+    <script src="/js/list.js"></script>
 
 
     
