@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Test</copyright>
-    <lastBuildDate>Fri, 06 Jan 2023 15:30:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/posts/general/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 07 Jan 2023 15:30:25 +0100</lastBuildDate><atom:link href="https://matthiasgoetze.com/posts/general/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Experiments with Chat GPT</title>
+      <link>https://matthiasgoetze.com/posts/general/chatgpt/</link>
+      <pubDate>Sat, 07 Jan 2023 15:30:25 +0100</pubDate>
+      
+      <guid>https://matthiasgoetze.com/posts/general/chatgpt/</guid>
+      <description>Chat GPT is currently the talk of the town, so of course I did a few experiments with it. This time I tried to have the AI solve a maths puzzle, here&amp;rsquo;s what came out:
+Anmerkung: I have left out the AI courtesy phrases to keep the text more readable.
+My Request ChatGPTs Response Comment Imagine a 4 digit number that multiplied by 4 gives you the same number written backwards One possible solution is the number 2002.</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://matthiasgoetze.com/posts/general/helloworld/</link>
       <pubDate>Fri, 06 Jan 2023 15:30:25 +0100</pubDate>
